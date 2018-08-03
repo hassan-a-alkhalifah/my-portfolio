@@ -57,4 +57,4 @@ _open "index.html" without quotes_
 
 ### License
 
-Copyright (c) 2018 **_Hassan Al-khalifah__**
+Copyright (c) 2018 **_Hassan Al-khalifah_**
