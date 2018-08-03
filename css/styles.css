@@ -1,20 +1,18 @@
 body {
-
-  background: linear-gradient(to bottom right, #958b83, #1c1918);
+  background: linear-gradient(to bottom right, #b2b1b0, #1c1918);
 }
 /*--- MAIN TITLE CSS RULES---*/
 #main_title_container {
   text-align: center;
   padding: 20px 0;
-  background-color: #778979;
+  background-color: rgba(119, 137, 121, 0.8);
   margin-bottom: 10px;
 }
 
 /*--- MAIN IMG AND PROJECT LIST CSS RULES ---*/
 #main_img_project_list_container {
   padding: 20px 0;
-  background-color: #ccdcc1;
-  border-radius: 10px;
+  background-color: rgba(204, 220, 193, 0.8);
 }
 #main_img_container img{
   display: block;
@@ -39,8 +37,7 @@ body {
 #about_me_container {
   text-align: center;
   padding: 20px 0;
-  background-color: #e3d6ab;
-  border-radius: 10px;
+  background-color: rgba(227, 214, 171, 0.8);
 }
 #bk_section_container {
   border-right: 1px dotted #333;
@@ -53,20 +50,23 @@ body {
 #contact_me_container {
   text-align: center;
   padding: 20px 0;
-  background-color: #d78258;
+  background-color: rgba(215, 130, 88, 0.8);
   margin-top: 10px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
-/*--- GENERAL SPACING AND LAYOUT RULES ---*/
+/*--- GENERAL SPACING, COLOR AND LAYOUT RULES ---*/
+.section-main-titles {
+  background-color: rgba(253, 253, 253, 0.8);
+  margin-bottom: -10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
 .margin-top-bottom {
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.divider {
-  border-top: 2px solid #111;
-}
+
 .spacer {
   height: 40px;
   width: 100%;
