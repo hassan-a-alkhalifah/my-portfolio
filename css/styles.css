@@ -1,5 +1,6 @@
 body {
   background: linear-gradient(to bottom right, #b2b1b0, #1c1918);
+  color: #333;
 }
 /*--- MAIN TITLE CSS RULES---*/
 #main_title_container {
@@ -23,11 +24,14 @@ body {
 #main_img_container h4 {
   position: absolute;
   top: 480px;
-  left: 85px;
+  left: 115px;
 }
 .project-website-photo {
   width: 170px;
   height: 190px;
+}
+.project-website-photo:hover {
+  border: 2px solid #333;
 }
 #main_img_project_list_container p {
   padding-top: 40px;
@@ -53,14 +57,26 @@ body {
   background-color: rgba(215, 130, 88, 0.8);
   margin-top: 10px;
 }
+#email-link {
+  color: #a9a29e;
+}
+#email-link:hover {
+  color: #726a66;
+  text-decoration: none;
+}
 
 /*--- GENERAL SPACING, COLOR AND LAYOUT RULES ---*/
 .section-main-titles {
   background-color: rgba(253, 253, 253, 0.8);
+  padding: 10px 0;
   margin-bottom: -10px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   text-align: center;
+}
+.border-bottom-radius {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 .margin-top-bottom {
   margin-top: 10px;
@@ -70,4 +86,29 @@ body {
 .spacer {
   height: 40px;
   width: 100%;
+}
+
+/*--- MEDIA QUERIES ---*/
+@media screen and (max-width: 991px) {
+  #main_img_container {
+    margin-bottom: 70px;
+  }
+  #main_img_container img {
+    padding-top: 0;
+    margin-left: 280px;
+  }
+  #main_img_container h4 {
+    left: 310px;
+    top: 300px;
+  }
+  ol {
+    list-style-type: none;
+  }
+  .project-website-titles {
+    text-align: center;
+  }
+  .project-website-photo {
+    display: block;
+    margin: auto;
+  }
 }
