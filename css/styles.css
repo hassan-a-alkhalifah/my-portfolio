@@ -23,6 +23,9 @@
   top: 330px;
   left: 160px;
 }
+.project-website-photo {
+  width: 100%;
+}
 
 /*--- ABOUT ME CSS RULES ---*/
 #about_me_container {
