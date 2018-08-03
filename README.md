@@ -46,9 +46,13 @@ _open "index.html" without quotes_
 ## Technologies Used
 
 *_HTML5_
+
 *_CSS3_
+
 *_Git_
+
 *_GitHub_
+
 *_README_
 
 ### License
