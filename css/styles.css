@@ -1,24 +1,62 @@
 /*--- MAIN TITLE CSS RULES---*/
 #main_title_container {
   text-align: center;
+  padding: 20px 0;
+  background-color: #DDD;
+  margin-bottom: 10px;
 }
 
 /*--- MAIN IMG AND PROJECT LIST CSS RULES ---*/
+#main_img_project_list_container {
+  padding: 20px 0;
+  background-color: #A5B39D;
+  border-radius: 10px;
+}
 #main_img_container img{
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 50px;
+}
+#main_img_container h4 {
+  position: absolute;
+  top: 330px;
+  left: 160px;
 }
 
 /*--- ABOUT ME CSS RULES ---*/
 #about_me_container {
   text-align: center;
+  padding: 20px 0;
+  background-color: #B3AE9D;
+  border-radius: 10px;
+}
+#bk_section_container {
+  border-right: 1px dotted #333;
+}
+#interest_hobbies_section_container {
+  border-left: 1px dotted #333;
 }
 
 /*--- CONTACT ME RULES ---*/
 #contact_me_container {
   text-align: center;
+  padding: 20px 0;
+  background-color: #9DB3B1;
+  margin-top: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-#email_phone_container p:nth-child(2){
-  margin-left: -115px
+
+/*--- GENERAL SPACING AND LAYOUT RULES ---*/
+.margin-top-bottom {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.divider {
+  border-top: 2px solid #111;
+}
+.spacer {
+  height: 40px;
+  width: 100%;
 }
