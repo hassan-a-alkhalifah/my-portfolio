@@ -14,3 +14,11 @@
 #about_me_container {
   text-align: center;
 }
+
+/*--- CONTACT ME RULES ---*/
+#contact_me_container {
+  text-align: center;
+}
+#email_phone_container p:nth-child(2){
+  margin-left: -115px
+}
