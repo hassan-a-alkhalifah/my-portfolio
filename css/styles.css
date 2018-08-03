@@ -1,3 +1,16 @@
-#main-title-container {
+/*--- MAIN TITLE CSS RULES---*/
+#main_title_container {
+  text-align: center;
+}
+
+/*--- MAIN IMG AND PROJECT LIST CSS RULES ---*/
+#main_img_container img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*--- ABOUT ME CSS RULES ---*/
+#about_me_container {
   text-align: center;
 }
