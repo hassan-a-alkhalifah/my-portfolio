@@ -71,7 +71,7 @@ span {
   font-weight: bold;
 }
 span a {
-  color: #989382;
+  color: #585343;
 }
 span a:hover {
   text-decoration: none;
@@ -117,10 +117,15 @@ span a:hover {
 }
 
 /*--- MEDIA QUERIES ---*/
-@media screen and (max-width: 991px) {
-  #main_img_container {
-    margin-bottom: 70px;
+@media screen and (max-width: 767px) {
+  #main_img_container img {
+    margin-left: 195px;
   }
+  #main_img_container h4 {
+    left: 215px;
+  }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
   #main_img_container img {
     padding-top: 0;
     margin-left: 280px;
@@ -128,6 +133,11 @@ span a:hover {
   #main_img_container h4 {
     left: 305px;
     top: 290px;
+  }
+}
+@media screen and (max-width: 991px) {
+  #main_img_container {
+    margin-bottom: 70px;
   }
   ol {
     list-style-type: none;
