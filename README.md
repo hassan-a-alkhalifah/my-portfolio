@@ -6,7 +6,7 @@
 
 ## Description
 
-_This website is my online portfolio which includes a list of my most recent **Projects** I've worked on at [**Epicodus**](https://www.epicodus.com/), an **About Me** section which includes a **Background** and a **Interest/Hobbies** section. At the end of the webpage, it also includes a **Contact** section with my email and cell phone number. The website was also a way for me to showcase what I've learned in my first week of [**Epicodus**](https://www.epicodus.com/)._
+_This website is my online portfolio which includes a list of my most recent **Projects** I've worked on at [**Epicodus**](https://www.epicodus.com/), an **About Me** section which includes a **Background** and a **Interest/Hobbies** section. At the end of the webpage, it also includes a **Contact** section with my email and cell phone number. The website was also a way for me to showcase what I've learned in my first week at [**Epicodus**](https://www.epicodus.com/)._
 
 ## Setup/Installation Instructions
 
