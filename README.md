@@ -14,7 +14,7 @@ _This website is my online portfolio which includes a list of my most recent **P
 
 *_Open terminal on your local device._
 
-*_If you have not configured Git on your local device, in the terminal, you'll need to set up a global configuration by entering the following:_
+*_If you have not configured Git on your local device, in the terminal, you will need to set up a global configuration by entering the following:_
 
 ```
 _git config --global user.name "Your first and last name"_
@@ -27,9 +27,9 @@ git config --global user.email example@gmail.com_
 
 *_You can now begin by cloning the GitHub remote repository to your desktop. On the GitHub website with the remote GitHub repository, you will find a button colored green with the text "Clone or Download." Click the button and copy the GitHub repository URL._
 
-*_Now in your terminal, enter the follow:_
+*_Now in your terminal, enter the following:_
 
-`_git clone "the GitHub repository URL you copied" without the quotes_`
+`_git clone "the GitHub repository URL you copied"_` without the quotes
 
 *_Now your desktop should have a local copy of the cloned repository._
 
