@@ -25,7 +25,7 @@ git config --global user.email example@gmail.com_
 
 `_cd Desktop_`
 
-*_You can now begin by cloning the GitHub remote repository to your desktop. On the GitHub website with the remote GitHub repository, you will find a green button colored green with the text "Clone or Download." Click the button and copy the GitHub repository URL._
+*_You can now begin by cloning the GitHub remote repository to your desktop. On the GitHub website with the remote GitHub repository, you will find a button colored green with the text "Clone or Download." Click the button and copy the GitHub repository URL._
 
 *_Now in your terminal, enter the follow:_
 
